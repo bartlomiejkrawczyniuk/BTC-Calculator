@@ -27,7 +27,7 @@ public class BtcExchangeLogImpl implements BtcExchangeLogDAO {
     @Override
     public int getEntitiesAmount(){
         EntityManager entityManager = factory.createEntityManager();
-        int result = entityManager.createNativeQuery("select * from bitcoin_sell_log.btcexchangelog;").getResultList().size();
+        int result = entityManager.createNativeQuery("select * from btcexchangelog;").getResultList().size();
         entityManager.close();
         return result;
     }

@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 
 @Entity
-@Table(name = "btcexchangelog", schema = "bitcoin_sell_log")
+@Table(name = "btcexchangelog", schema = "NzJXkE5pbu")
 public class BtcExchangeLog extends AbstractBtcExchangeLog {
     private static final long serialVersionUID = 1L;
 
